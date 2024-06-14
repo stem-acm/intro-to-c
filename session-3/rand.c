@@ -7,6 +7,6 @@ int randMinMax(int min, int max) {
     srand(time(NULL));
 
     // Generate a random integer
-    int random_int = rand();
-    return min + rand() % (max - min + 1);
+    int random_in  = rand();
+    return min + random_in % (max - min + 1);
 }
